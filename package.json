@@ -1,0 +1,50 @@
+{
+  "name": "aura_decorator_toolkit",
+  "version": "0.0.1",
+  "description": "",
+  "main": "build/src/index.js",
+  "types": "build/src/index.d.ts",
+  "type":"module",
+  "files": [
+    "build/src"
+  ],
+  "license": "Apache-2.0",
+  "keywords": [],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "gts lint",
+    "clean": "gts clean",
+    "compile": "tsc",
+    "fix": "gts fix"
+  },
+  "devDependencies": {
+    "@commitlint/config-conventional": "^17.3.0",
+    "@jest-decorated/core": "^0.1.7",
+    "@jest/globals": "^29.3.1",
+    "@tsconfig/node16": "^1.0.3",
+    "@types/jest-when": "^3.5.2",
+    "@types/node": "^18.11.11",
+    "@typescript-eslint/eslint-plugin": "^5.40.1",
+    "@typescript-eslint/parser": "^5.40.1",
+    "eslint": "^8.25.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-airbnb-typescript": "^17.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "husky": "^8.0.0",
+    "jest": "^29.3.1",
+    "jest-light-runner": "^0.4.1",
+    "lint-staged": "^13.1.0",
+    "moleculer-repl": "^0.7.3",
+    "prettier": "^2.7.1",
+    "ts-jest": "^29.0.3",
+    "ts-node": "^10.9.1",
+    "tsconfig-paths": "^4.1.1",
+    "typescript": "^4.8.4"
+  },
+  "dependencies": {
+    "@types/underscore": "^1.11.5",
+    "underscore": "^1.13.6"
+  }
+}
